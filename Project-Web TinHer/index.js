@@ -4,6 +4,8 @@ import "./screens/main.js"
 import "./utils.js"
 import "./components/inputWrapper.js"
 import "./components/header.js"
+import "./components/createMessenger.js"
+
 
 
 redirect("register");

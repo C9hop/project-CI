@@ -6,6 +6,7 @@ class MainScreen extends HTMLElement{
     connectedCallback(){
         this._shadowDom.innerHTML=`
             <main-header></main-header>
+            <create-messenger></create-messenger>
         `
     }
 }

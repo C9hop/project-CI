@@ -102,7 +102,7 @@ class MainHeader extends HTMLElement{
     }
     connectedCallback(){
         this._shadowDom.innerHTML=`
-        <script src="https://kit.fontawesome.com/274f5e148e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <style>
             ${style}
             </style>
@@ -114,11 +114,11 @@ class MainHeader extends HTMLElement{
         <div class="header-action">
             <div class="header-nav">    
                 <div class="header-nav-item-1">
-                    <div class="icon-font"><i class="fas fa-bomb"></i></div>
+                    <div class="icon-font"><i class="fa fa-bomb" aria-hidden="true"></i></div>
                     <p>Explore</p>
                  </div>
                 <div class="header-nav-item-2">
-                    <div class="icon-font"><i class="fas fa-comments"></i></div>
+                    <div class="icon-font"><i class="fa fa-comments" aria-hidden="true"></i></div>
                     <p>Messenger</p>
                 </div>
             </div>
